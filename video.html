@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO PAGE</title>
+    <link rel="stylesheet" href="./video.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <span class="material-icons">menu</span>
+          <img src="./media/images.png" alt="logo" height="40px" width="80px" />
+          <h3>YouTube</h3>
+        </div>
+        <div class="search">
+          <input type="text" id="search-input" placeholder="Type to Search" />
+          <button class="search-button">Search</button>
+        </div>
+        <div class="icons">
+          <span class="material-icons"> video_call </span>
+          <span class="material-icons"> apps </span>
+          <span class="material-icons"> notifications </span>
+          <img
+            src="./media/wallpaperflare.com_wallpaper.jpg"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+        </div>
+      </nav>
+
+    <div id="hero">
+    <div id="video-container">
+        <div id="video"></div>
+        <div class="horizontal-line"></div>
+        <div id="channel-info"></div>
+        <div class="horizontal-line"></div>
+        <div id="comment-section"></div>
+        <div class="horizontal-line"></div>
+    </div>
+    <div id="suggestions"></div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./video.js"></script>
+</body>
+</html>
